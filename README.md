@@ -13,6 +13,10 @@ export ALLOW_MISSING_DEPENDENCIES=true
 
 mka adbd recoveryimage
 
+## OrangeFox guide
+
+https://wiki.orangefox.tech/en/dev/building
+
 ## Device specifications
 
 ZTE Nubia Z17 (codenamed "nx563j") is a high-range smartphone from Nubia.
