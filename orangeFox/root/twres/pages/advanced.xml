@@ -293,6 +293,7 @@
 		<page name="mod_sign">
 			<action>
 				<action function="queueclear"/>
+				<action function="umount">system_root</action>
 				<action function="set">fox_m_author={@sign_boot_confirm}</action>
 				<action function="set">fox_m_name={@module_sign_boot}</action>
 				<action function="set">tw_file=VerifiedBootSigner.zip</action>
